@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://AssetScenes/Town2.tscn" type="PackedScene" id=1]
+
+[node name="CrumpledMountain" type="Node2D"]
+
+[node name="UI" type="Node2D" parent="."]
+
+[node name="Scene" type="Node2D" parent="."]
+
+[node name="Town2" parent="Scene" instance=ExtResource( 1 )]

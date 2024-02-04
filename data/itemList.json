@@ -1,0 +1,37 @@
+{
+  "1": {
+    "name": "Butterfly Net",
+    "price": 150,
+    "description": "A weak net for catching monsters"
+  },
+  "2": {
+    "name": "Fish Net",
+    "price": 400,
+    "description": "A stronger net for catching monsters"
+  },
+  "3": {
+    "name": "Elephant Net",
+    "price": 800,
+    "description": "A huge net for catching monsters"
+  },
+  "4": {
+    "name": "Small Health Potion",
+    "price": 200,
+    "description": "A small bottle of healing potion, heals 25hp"
+  },
+  "5": {
+    "name": "Medium Health Potion",
+    "price": 600,
+    "description": "A medium bottle of healing potion, heals 75hp"
+  },
+  "6": {
+    "name": "Large Health Potion",
+    "price": 1200,
+    "description": "A large bottle of healing potion, heals 150hp"
+  },
+  "7": {
+    "name": "Max Health Potion",
+    "price": 2000,
+    "description": "A premium bottle of healing potion, heals fully"
+  }
+}

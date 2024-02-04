@@ -1,0 +1,349 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Scripts/battle.gd" type="Script" id=1]
+[ext_resource path="res://img/backgrounds/Lumpy Springs.png" type="Texture" id=2]
+[ext_resource path="res://img/monsters/2.png" type="Texture" id=3]
+[ext_resource path="res://img/monsters/1.png" type="Texture" id=4]
+[ext_resource path="res://Scripts/attacks.gd" type="Script" id=5]
+[ext_resource path="res://gbsmall.tres" type="DynamicFont" id=6]
+[ext_resource path="res://img/arrow.png" type="Texture" id=7]
+[ext_resource path="res://img/shadow.png" type="Texture" id=8]
+[ext_resource path="res://Scripts/Items.gd" type="Script" id=9]
+[ext_resource path="res://img/monsters/8.png" type="Texture" id=10]
+[ext_resource path="res://img/monsters/5.png" type="Texture" id=12]
+[ext_resource path="res://Scripts/Monsters.gd" type="Script" id=13]
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.0784314, 0.0745098, 0.0745098, 0.270588 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.14902, 0.137255, 0.137255, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.0862745, 0.0823529, 0.0823529, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.00392157, 0.54902, 0.133333, 1 )
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.00392157, 0.54902, 0.133333, 1 )
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.101961, 0.0941176, 0.0941176, 0.576471 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Battle" type="Node2D"]
+position = Vector2( -3, -2.98023e-07 )
+scale = Vector2( 0.24, 0.24 )
+script = ExtResource( 1 )
+
+[node name="BattleMenu" type="Node2D" parent="."]
+visible = false
+
+[node name="Items" type="Button" parent="BattleMenu"]
+margin_left = 321.833
+margin_top = 528.666
+margin_right = 448.833
+margin_bottom = 579.666
+text = "Items"
+
+[node name="Attack" type="Button" parent="BattleMenu"]
+margin_left = 321.833
+margin_top = 437.833
+margin_right = 448.833
+margin_bottom = 488.833
+text = "Attack"
+
+[node name="Monsters" type="Button" parent="BattleMenu"]
+margin_left = 544.166
+margin_top = 437.833
+margin_right = 671.166
+margin_bottom = 488.833
+text = "Monsters"
+
+[node name="Flee" type="Button" parent="BattleMenu"]
+margin_left = 547.166
+margin_top = 530.667
+margin_right = 674.166
+margin_bottom = 581.667
+text = "Flee"
+
+[node name="Attacks" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 5 )
+
+[node name="Attack1" type="Button" parent="Attacks"]
+margin_left = 321.833
+margin_top = 437.833
+margin_right = 448.833
+margin_bottom = 488.833
+disabled = true
+text = "---"
+
+[node name="Attack2" type="Button" parent="Attacks"]
+margin_left = 544.166
+margin_top = 437.833
+margin_right = 671.166
+margin_bottom = 488.833
+disabled = true
+text = "---"
+
+[node name="Attack3" type="Button" parent="Attacks"]
+margin_left = 321.833
+margin_top = 528.666
+margin_right = 448.833
+margin_bottom = 579.666
+disabled = true
+text = "---"
+
+[node name="Attack4" type="Button" parent="Attacks"]
+margin_left = 547.166
+margin_top = 530.667
+margin_right = 674.166
+margin_bottom = 581.667
+disabled = true
+text = "---"
+
+[node name="Back" type="Button" parent="Attacks"]
+margin_left = 448.0
+margin_top = 607.667
+margin_right = 550.0
+margin_bottom = 631.667
+text = "Back"
+
+[node name="Items" type="Node2D" parent="."]
+visible = false
+position = Vector2( 448, 607.667 )
+script = ExtResource( 9 )
+
+[node name="Back" type="Button" parent="Items"]
+margin_right = 102.0
+margin_bottom = 24.0
+text = "Back"
+
+[node name="Use" type="Button" parent="Items"]
+margin_left = -12.5
+margin_top = -75.0
+margin_right = 115.5
+margin_bottom = -24.0
+text = "Use"
+
+[node name="Panel" type="Panel" parent="Items"]
+margin_left = -26.8333
+margin_top = -129.0
+margin_right = 132.167
+margin_bottom = -104.0
+custom_styles/panel = SubResource( 7 )
+
+[node name="Items" type="MenuButton" parent="Items"]
+margin_left = -70.8333
+margin_top = -125.0
+margin_right = 179.167
+margin_bottom = -105.0
+custom_styles/normal = SubResource( 6 )
+text = "Select"
+
+[node name="Monsters" type="Node2D" parent="."]
+visible = false
+z_index = 1
+script = ExtResource( 13 )
+
+[node name="Panel" type="Panel" parent="Monsters"]
+margin_left = 70.8333
+margin_top = 183.0
+margin_right = 941.833
+margin_bottom = 629.0
+custom_styles/panel = SubResource( 8 )
+
+[node name="Back" type="Button" parent="Monsters"]
+margin_left = 441.667
+margin_top = 579.167
+margin_right = 554.667
+margin_bottom = 604.167
+text = "Back"
+
+[node name="Mon1" type="Sprite" parent="Monsters"]
+position = Vector2( 283.333, 308.333 )
+texture = ExtResource( 12 )
+
+[node name="Type1" type="Sprite" parent="Monsters"]
+position = Vector2( 391.667, 404.166 )
+scale = Vector2( 0.121041, 0.121041 )
+
+[node name="ProgressBar" type="ProgressBar" parent="Monsters"]
+margin_left = 237.5
+margin_top = 445.833
+margin_right = 341.5
+margin_bottom = 459.833
+value = 50.0
+
+[node name="Label" type="Label" parent="Monsters"]
+margin_left = 270.833
+margin_top = 395.833
+margin_right = 310.833
+margin_bottom = 409.833
+text = "mon1"
+
+[node name="Select1" type="Button" parent="Monsters"]
+margin_left = 266.667
+margin_top = 495.833
+margin_right = 319.667
+margin_bottom = 515.833
+text = "switch"
+
+[node name="Mon2" type="Node2D" parent="Monsters"]
+
+[node name="Mon2" type="Sprite" parent="Monsters/Mon2"]
+position = Vector2( 679.166, 308.333 )
+texture = ExtResource( 10 )
+
+[node name="Label2" type="Label" parent="Monsters/Mon2"]
+margin_left = 666.666
+margin_top = 391.667
+margin_right = 706.666
+margin_bottom = 405.667
+text = "mon2"
+
+[node name="Select2" type="Button" parent="Monsters/Mon2"]
+margin_left = 662.5
+margin_top = 491.667
+margin_right = 715.5
+margin_bottom = 511.667
+text = "switch"
+
+[node name="ProgressBar2" type="ProgressBar" parent="Monsters/Mon2"]
+margin_left = 637.5
+margin_top = 441.666
+margin_right = 741.5
+margin_bottom = 455.666
+value = 50.0
+
+[node name="Type2" type="Sprite" parent="Monsters/Mon2"]
+position = Vector2( 783.332, 399.999 )
+scale = Vector2( 0.121041, 0.121041 )
+
+[node name="Ally" type="Sprite" parent="."]
+position = Vector2( 240.75, 287.917 )
+scale = Vector2( 1.74479, 1.74479 )
+texture = ExtResource( 4 )
+
+[node name="Enemy" type="Sprite" parent="."]
+position = Vector2( 764.75, 287.417 )
+scale = Vector2( 1.73437, 1.73437 )
+texture = ExtResource( 3 )
+
+[node name="EnemyHealth" type="ProgressBar" parent="."]
+margin_left = 655.0
+margin_top = 133.0
+margin_right = 880.0
+margin_bottom = 158.0
+custom_styles/fg = SubResource( 3 )
+value = 50.0
+
+[node name="AllyHealth" type="ProgressBar" parent="."]
+margin_left = 131.0
+margin_top = 133.0
+margin_right = 356.0
+margin_bottom = 158.0
+custom_styles/fg = SubResource( 2 )
+value = 70.0
+
+[node name="AllyInfo" type="Label" parent="."]
+margin_left = 140.0
+margin_top = 46.0
+margin_right = 350.0
+margin_bottom = 84.0
+text = "5 | grunder"
+align = 1
+valign = 1
+clip_text = true
+
+[node name="EnemyInfo" type="Label" parent="."]
+margin_left = 667.0
+margin_top = 46.0
+margin_right = 872.0
+margin_bottom = 84.0
+text = "5 | grunko"
+align = 1
+valign = 1
+
+[node name="AllyType" type="Sprite" parent="."]
+position = Vector2( 312, 65 )
+scale = Vector2( 0.105362, 0.105362 )
+
+[node name="EnemyType" type="Sprite" parent="."]
+position = Vector2( 829, 65 )
+scale = Vector2( 0.105362, 0.105362 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 543.75, 324.333 )
+scale = Vector2( 1.35324, 1.38607 )
+z_index = -500
+texture = ExtResource( 2 )
+
+[node name="bg" type="Node2D" parent="."]
+z_index = -1
+
+[node name="Panel" type="Panel" parent="bg"]
+light_mask = 65
+margin_left = -56.0
+margin_top = 30.0
+margin_right = 1151.0
+margin_bottom = 99.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Shadow" type="Sprite" parent="bg"]
+position = Vector2( 236, 363.666 )
+scale = Vector2( 0.519139, 0.519139 )
+texture = ExtResource( 8 )
+
+[node name="Shadow2" type="Sprite" parent="bg"]
+position = Vector2( 766, 364.666 )
+scale = Vector2( 0.519139, 0.519139 )
+texture = ExtResource( 8 )
+
+[node name="Textbox" type="Panel" parent="."]
+visible = false
+margin_left = 41.6667
+margin_top = 429.167
+margin_right = 980.667
+margin_bottom = 629.167
+custom_styles/panel = SubResource( 4 )
+
+[node name="Label" type="Label" parent="Textbox"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -51.0
+custom_fonts/font = ExtResource( 6 )
+
+[node name="Arrow" type="AnimatedSprite" parent="Textbox"]
+position = Vector2( 908, 162.5 )
+scale = Vector2( 0.458334, 0.458334 )
+frames = SubResource( 5 )

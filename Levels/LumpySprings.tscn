@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://AssetScenes/Town.tscn" type="PackedScene" id=4]
+
+[node name="LumpySprings" type="Node2D"]
+
+[node name="UI" type="Node2D" parent="."]
+
+[node name="Scene" type="Node2D" parent="."]
+
+[node name="Town" parent="Scene" instance=ExtResource( 4 )]
+position = Vector2( 16, -152 )

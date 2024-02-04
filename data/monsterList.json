@@ -1,0 +1,2377 @@
+{
+  "1": {
+    "name": "Grunder",
+    "rarity": 3,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 1,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 12,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 6,
+      "15": 34,
+      "23": 14,
+      "28": 18,
+      "33": 78,
+      "40": 26,
+      "55": 63
+    }
+  },
+  "2": {
+    "name": "Gormbo",
+    "rarity": 4,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 4,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 6,
+      "15": 34,
+      "23": 14,
+      "28": 18,
+      "33": 78,
+      "40": 26,
+      "55": 63
+    }
+  },
+  "3": {
+    "name": "Gonzo",
+    "rarity": 5,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 6,
+      "15": 34,
+      "23": 14,
+      "28": 18,
+      "33": 90,
+      "40": 26,
+      "55": 63
+    }
+  },
+  "4": {
+    "name": "Bunk",
+    "rarity": 3,
+    "type": "earth",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 12,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 5,
+      "15": 34,
+      "23": 21,
+      "28": 12,
+      "33": 78,
+      "40": 25,
+      "55": 62
+    }
+  },
+  "5": {
+    "name": "Bark",
+    "rarity": 4,
+    "type": "earth",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 5,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 5,
+      "15": 34,
+      "23": 21,
+      "28": 12,
+      "33": 78,
+      "40": 25,
+      "55": 62
+    }
+  },
+  "6": {
+    "name": "Brick",
+    "rarity": 5,
+    "type": "earth",
+    "healthMod": 4,
+    "attackMod": 3,
+    "defenceMod": 5,
+    "speedMod": 1,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 5,
+      "15": 34,
+      "23": 21,
+      "28": 12,
+      "33": 78,
+      "40": 25,
+      "55": 62
+    }
+  },
+  "7": {
+    "name": "Blip",
+    "rarity": 3,
+    "type": "water",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 12,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 8,
+      "15": 34,
+      "23": 24,
+      "28": 10,
+      "33": 82,
+      "40": 28,
+      "55": 64
+    }
+  },
+  "8": {
+    "name": "Blop",
+    "rarity": 4,
+    "type": "water",
+    "healthMod": 4,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 8,
+      "15": 34,
+      "23": 24,
+      "28": 10,
+      "33": 82,
+      "40": 28,
+      "55": 64
+    }
+  },
+  "9": {
+    "name": "Bluba",
+    "rarity": 5,
+    "type": "water",
+    "healthMod": 5,
+    "attackMod": 4,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 8,
+      "15": 34,
+      "23": 24,
+      "28": 10,
+      "33": 82,
+      "40": 28,
+      "55": 64
+    }
+  },
+  "10": {
+    "name": "Jilo",
+    "rarity": 3,
+    "type": "air",
+    "healthMod": 1,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 3,
+    "evolve": 12,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 7,
+      "15": 34,
+      "23": 23,
+      "28": 11,
+      "33": 86,
+      "40": 27,
+      "55": 65
+    }
+  },
+  "11": {
+    "name": "Jilias",
+    "rarity": 4,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 4,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 7,
+      "15": 34,
+      "23": 23,
+      "28": 11,
+      "33": 86,
+      "40": 27,
+      "55": 65
+    }
+  },
+  "12": {
+    "name": "Jilsop",
+    "rarity": 5,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 5,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "8": 7,
+      "15": 34,
+      "23": 23,
+      "28": 11,
+      "33": 86,
+      "40": 27,
+      "55": 65
+    }
+  },
+  "13": {
+    "name": "Huft",
+    "rarity": 2,
+    "type": "earth",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 3,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "14": {
+    "name": "Monod",
+    "rarity": 1,
+    "type": "water",
+    "healthMod": 1,
+    "attackMod": 2,
+    "defenceMod": 1,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 18,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "15": {
+    "name": "Dyod",
+    "rarity": 5,
+    "type": "water",
+    "healthMod": 3,
+    "attackMod": 5,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "16": {
+    "name": "Bellows",
+    "rarity": 2,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 1,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "17": {
+    "name": "Holba",
+    "rarity": 2,
+    "type": "air",
+    "healthMod": 1,
+    "attackMod": 2,
+    "defenceMod": 1,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "18": {
+    "name": "Skrimp",
+    "rarity": 1,
+    "type": "water",
+    "healthMod": 1,
+    "attackMod": 1,
+    "defenceMod": 1,
+    "speedMod": 4,
+    "specialMod": 1,
+    "evolve": 18,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "19": {
+    "name": "Skampi",
+    "rarity": 4,
+    "type": "water",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 4,
+    "speedMod": 4,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "20": {
+    "name": "HAL",
+    "rarity": 5,
+    "type": "cybernetic",
+    "healthMod": 3,
+    "attackMod": 5,
+    "defenceMod": 4,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "21": {
+    "name": "Hellbones",
+    "rarity": 5,
+    "type": "demonic",
+    "healthMod": 5,
+    "attackMod": 2,
+    "defenceMod": 5,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "22": {
+    "name": "Faywa",
+    "rarity": 5,
+    "type": "divine",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 4,
+    "speedMod": 3,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "23": {
+    "name": "The Old One",
+    "rarity": 5,
+    "type": "eldritch",
+    "healthMod": 4,
+    "attackMod": 4,
+    "defenceMod": 5,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "24": {
+    "name": "The Blind One",
+    "rarity": 4,
+    "type": "eldritch",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 4,
+    "speedMod": 4,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "25": {
+    "name": "The Lost One",
+    "rarity": 4,
+    "type": "eldritch",
+    "healthMod": 4,
+    "attackMod": 3,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "26": {
+    "name": "Loyal Acolyte",
+    "rarity": 3,
+    "type": "eldritch",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "27": {
+    "name": "Elyais",
+    "rarity": 3,
+    "type": "divine",
+    "healthMod": 5,
+    "attackMod": 1,
+    "defenceMod": 3,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "28": {
+    "name": "Yehu",
+    "rarity": 4,
+    "type": "divine",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "29": {
+    "name": "Abalou",
+    "rarity": 4,
+    "type": "divine",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 4,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "30": {
+    "name": "Gatekeeper",
+    "rarity": 3,
+    "type": "demonic",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "31": {
+    "name": "Skinpeeler",
+    "rarity": 4,
+    "type": "demonic",
+    "healthMod": 4,
+    "attackMod": 5,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "32": {
+    "name": "Bloodhorror",
+    "rarity": 4,
+    "type": "demonic",
+    "healthMod": 4,
+    "attackMod": 5,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "33": {
+    "name": "Bureaucrat",
+    "rarity": 3,
+    "type": "cybernetic",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 4,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "34": {
+    "name": "BeBeRo",
+    "rarity": 4,
+    "type": "cybernetic",
+    "healthMod": 3,
+    "attackMod": 4,
+    "defenceMod": 1,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "35": {
+    "name": "Tungsten",
+    "rarity": 4,
+    "type": "cybernetic",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 5,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "36": {
+    "name": "Jort",
+    "rarity": 1,
+    "type": "earth",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 1,
+    "speedMod": 1,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "37": {
+    "name": "Pubble",
+    "rarity": 1,
+    "type": "earth",
+    "healthMod": 4,
+    "attackMod": 1,
+    "defenceMod": 1,
+    "speedMod": 1,
+    "specialMod": 1,
+    "evolve": 18,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "38": {
+    "name": "Pulk",
+    "rarity": 5,
+    "type": "earth",
+    "healthMod": 5,
+    "attackMod": 3,
+    "defenceMod": 5,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "39": {
+    "name": "Wello",
+    "rarity": 1,
+    "type": "air",
+    "healthMod": 1,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "40": {
+    "name": "Molt",
+    "rarity": 3,
+    "type": "fire",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "41": {
+    "name": "Liget",
+    "rarity": 1,
+    "type": "fire",
+    "healthMod": 1,
+    "attackMod": 2,
+    "defenceMod": 1,
+    "speedMod": 1,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "42": {
+    "name": "Creeker",
+    "rarity": 2,
+    "type": "water",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 1,
+    "speedMod": 1,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "43": {
+    "name": "Swooper",
+    "rarity": 2,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 1,
+    "speedMod": 4,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "44": {
+    "name": "Feuw",
+    "rarity": 2,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "45": {
+    "name": "Brolder",
+    "rarity": 2,
+    "type": "earth",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "46": {
+    "name": "Slurp",
+    "rarity": 2,
+    "type": "water",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "47": {
+    "name": "Yewek",
+    "rarity": 2,
+    "type": "dragon",
+    "healthMod": 1,
+    "attackMod": 3,
+    "defenceMod": 1,
+    "speedMod": 4,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "48": {
+    "name": "Zund",
+    "rarity": 2,
+    "type": "electric",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "49": {
+    "name": "Grunko",
+    "rarity": 2,
+    "type": "fighting",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "50": {
+    "name": "Swill",
+    "rarity": 2,
+    "type": "psychic",
+    "healthMod": 1,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "51": {
+    "name": "Cress",
+    "rarity": 2,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "52": {
+    "name": "Ashel",
+    "rarity": 2,
+    "type": "fire",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "53": {
+    "name": "Ertty",
+    "rarity": 2,
+    "type": "earth",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "54": {
+    "name": "Drunce",
+    "rarity": 2,
+    "type": "water",
+    "healthMod": 1,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "55": {
+    "name": "Mooha",
+    "rarity": 3,
+    "type": "fighting",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "56": {
+    "name": "Mhed",
+    "rarity": 4,
+    "type": "fighting",
+    "healthMod": 3,
+    "attackMod": 5,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "57": {
+    "name": "Ahlee",
+    "rarity": 5,
+    "type": "fighting",
+    "healthMod": 3,
+    "attackMod": 5,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "58": {
+    "name": "Neh",
+    "rarity": 3,
+    "type": "psychic",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "59": {
+    "name": "Bahk",
+    "rarity": 4,
+    "type": "psychic",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 5,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "60": {
+    "name": "Huneser",
+    "rarity": 5,
+    "type": "psychic",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "61": {
+    "name": "Thesselos",
+    "rarity": 3,
+    "type": "dragon",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "62": {
+    "name": "Thesselodia",
+    "rarity": 4,
+    "type": "dragon",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "63": {
+    "name": "Thessis",
+    "rarity": 5,
+    "type": "dragon",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "64": {
+    "name": "Alplug",
+    "rarity": 3,
+    "type": "electric",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 1,
+    "speedMod": 4,
+    "specialMod": 3,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "65": {
+    "name": "Alcost",
+    "rarity": 4,
+    "type": "electric",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 3,
+    "evolve": 22,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "66": {
+    "name": "Alset",
+    "rarity": 5,
+    "type": "electric",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 5,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "67": {
+    "name": "Skelt",
+    "rarity": 3,
+    "type": "water",
+    "healthMod": 1,
+    "attackMod": 4,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "68": {
+    "name": "Mr. Bop",
+    "rarity": 3,
+    "type": "fighting",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 1,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 16,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "69": {
+    "name": "Bop Sr.",
+    "rarity": 4,
+    "type": "fighting",
+    "healthMod": 3,
+    "attackMod": 4,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "70": {
+    "name": "Smuchem",
+    "rarity": 3,
+    "type": "fighting",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "71": {
+    "name": "Bizzo",
+    "rarity": 3,
+    "type": "psychic",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 16,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "72": {
+    "name": "Bizzat",
+    "rarity": 4,
+    "type": "psychic",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "73": {
+    "name": "Seer",
+    "rarity": 3,
+    "type": "psychic",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "74": {
+    "name": "Anomos",
+    "rarity": 3,
+    "type": "dragon",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 16,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "75": {
+    "name": "Akosmia",
+    "rarity": 4,
+    "type": "dragon",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "76": {
+    "name": "Zatatyz",
+    "rarity": 3,
+    "type": "dragon",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "77": {
+    "name": "Brightos",
+    "rarity": 3,
+    "type": "electric",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 16,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "78": {
+    "name": "Brossfade",
+    "rarity": 4,
+    "type": "electric",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "79": {
+    "name": "Simlep",
+    "rarity": 3,
+    "type": "electric",
+    "healthMod": 2,
+    "attackMod": 4,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "80": {
+    "name": "Tim",
+    "rarity": 4,
+    "type": "normal",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33
+    }
+  },
+  "81": {
+    "name": "Robert",
+    "rarity": 3,
+    "type": "normal",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "82": {
+    "name": "Lisa",
+    "rarity": 4,
+    "type": "normal",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "83": {
+    "name": "Harold",
+    "rarity": 3,
+    "type": "normal",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "84": {
+    "name": "Rodger",
+    "rarity": 4,
+    "type": "normal",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "85": {
+    "name": "Monica",
+    "rarity": 3,
+    "type": "normal",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "86": {
+    "name": "Phyllis",
+    "rarity": 4,
+    "type": "normal",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 4,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "87": {
+    "name": "Calvin",
+    "rarity": 3,
+    "type": "normal",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 4,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "88": {
+    "name": "Initiate",
+    "rarity": 3,
+    "type": "eldritch",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 15,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "89": {
+    "name": "Devotee",
+    "rarity": 4,
+    "type": "eldritch",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 3,
+    "speedMod": 4,
+    "specialMod": 4,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "90": {
+    "name": "Shaman",
+    "rarity": 5,
+    "type": "eldritch",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 4,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "91": {
+    "name": "Null",
+    "rarity": 3,
+    "type": "eldritch",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "92": {
+    "name": "Nothing",
+    "rarity": 3,
+    "type": "eldritch",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "93": {
+    "name": "Believer",
+    "rarity": 3,
+    "type": "divine",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 15,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "94": {
+    "name": "Faithful",
+    "rarity": 4,
+    "type": "divine",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "95": {
+    "name": "Blessed",
+    "rarity": 5,
+    "type": "divine",
+    "healthMod": 5,
+    "attackMod": 2,
+    "defenceMod": 4,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "96": {
+    "name": "Celectus",
+    "rarity": 3,
+    "type": "divine",
+    "healthMod": 3,
+    "attackMod": 4,
+    "defenceMod": 1,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "97": {
+    "name": "Twiver",
+    "rarity": 3,
+    "type": "divine",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "98": {
+    "name": "Wanton",
+    "rarity": 3,
+    "type": "demonic",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 15,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "99": {
+    "name": "Sinner",
+    "rarity": 4,
+    "type": "demonic",
+    "healthMod": 3,
+    "attackMod": 4,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "100": {
+    "name": "Damned",
+    "rarity": 5,
+    "type": "demonic",
+    "healthMod": 3,
+    "attackMod": 5,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "101": {
+    "name": "Belagus",
+    "rarity": 3,
+    "type": "demonic",
+    "healthMod": 2,
+    "attackMod": 4,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "102": {
+    "name": "Gloomgore",
+    "rarity": 3,
+    "type": "demonic",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "103": {
+    "name": "Hacker",
+    "rarity": 3,
+    "type": "cybernetic",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 15,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "104": {
+    "name": "Uploader",
+    "rarity": 4,
+    "type": "cybernetic",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 4,
+    "specialMod": 2,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "105": {
+    "name": "Cyborg",
+    "rarity": 5,
+    "type": "cybernetic",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 5,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "106": {
+    "name": "Ostron",
+    "rarity": 3,
+    "type": "cybernetic",
+    "healthMod": 3,
+    "attackMod": 4,
+    "defenceMod": 1,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "107": {
+    "name": "Automaton",
+    "rarity": 3,
+    "type": "cybernetic",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "108": {
+    "name": "Konk",
+    "rarity": 3,
+    "type": "earth",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "109": {
+    "name": "Flull",
+    "rarity": 1,
+    "type": "air",
+    "healthMod": 1,
+    "attackMod": 1,
+    "defenceMod": 1,
+    "speedMod": 1,
+    "specialMod": 4,
+    "evolve": 18,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "110": {
+    "name": "Flultter",
+    "rarity": 5,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 1,
+    "speedMod": 5,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "111": {
+    "name": "Crisp",
+    "rarity": 1,
+    "type": "fire",
+    "healthMod": 1,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 1,
+    "specialMod": 1,
+    "evolve": 18,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "112": {
+    "name": "Mugmo",
+    "rarity": 5,
+    "type": "fire",
+    "healthMod": 5,
+    "attackMod": 5,
+    "defenceMod": 3,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "113": {
+    "name": "Fantl",
+    "rarity": 4,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "114": {
+    "name": "Sooke",
+    "rarity": 4,
+    "type": "fire",
+    "healthMod": 5,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+
+  "115": {
+    "name": "Hargreave",
+    "rarity": 4,
+    "type": "earth",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "116": {
+    "name": "Nupa",
+    "rarity": 3,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "117": {
+    "name": "Woft",
+    "rarity": 3,
+    "type": "fighting",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "118": {
+    "name": "Quesk",
+    "rarity": 3,
+    "type": "dragon",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "119": {
+    "name": "Gillowatt",
+    "rarity": 3,
+    "type": "electric",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "120": {
+    "name": "Musty",
+    "rarity": 3,
+    "type": "psychic",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "121": {
+    "name": "Snipe",
+    "rarity": 3,
+    "type": "air",
+    "healthMod": 3,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "122": {
+    "name": "Oyld",
+    "rarity": 3,
+    "type": "fire",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "123": {
+    "name": "Breen",
+    "rarity": 3,
+    "type": "water",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 1,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "124": {
+    "name": "Hundo",
+    "rarity": 3,
+    "type": "earth",
+    "healthMod": 1,
+    "attackMod": 4,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "125": {
+    "name": "Nowlo",
+    "rarity": 3,
+    "type": "air",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "126": {
+    "name": "Noyolo",
+    "rarity": 4,
+    "type": "air",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 4,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "127": {
+    "name": "Zekko",
+    "rarity": 3,
+    "type": "water",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "128": {
+    "name": "Zonk",
+    "rarity": 4,
+    "type": "water",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 2,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "129": {
+    "name": "Volly",
+    "rarity": 3,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "130": {
+    "name": "Vollock",
+    "rarity": 4,
+    "type": "fire",
+    "healthMod": 4,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "131": {
+    "name": "Millmer",
+    "rarity": 3,
+    "type": "earth",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 14,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "132": {
+    "name": "Millius",
+    "rarity": 4,
+    "type": "earth",
+    "healthMod": 4,
+    "attackMod": 3,
+    "defenceMod": 3,
+    "speedMod": 1,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "133": {
+    "name": "Quillow",
+    "rarity": 3,
+    "type": "air",
+    "healthMod": 2,
+    "attackMod": 1,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 4,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "134": {
+    "name": "Quillott",
+    "rarity": 5,
+    "type": "air",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 2,
+    "speedMod": 5,
+    "specialMod": 4,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "135": {
+    "name": "Wyrm",
+    "rarity": 5,
+    "type": "dragon",
+    "healthMod": 3,
+    "attackMod": 4,
+    "defenceMod": 3,
+    "speedMod": 4,
+    "specialMod": 2,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "136": {
+    "name": "Snellma",
+    "rarity": 3,
+    "type": "water",
+    "healthMod": 3,
+    "attackMod": 2,
+    "defenceMod": 4,
+    "speedMod": 1,
+    "specialMod": 2,
+    "evolve": 25,
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "137": {
+    "name": "Snellogg",
+    "rarity": 5,
+    "type": "water",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 5,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "138": {
+    "name": "Gritz",
+    "rarity": 5,
+    "type": "electric",
+    "healthMod": 4,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "139": {
+    "name": "Yullbo",
+    "rarity": 3,
+    "type": "fire",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "140": {
+    "name": "Yullburn",
+    "rarity": 5,
+    "type": "fire",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 5,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "141": {
+    "name": "Unhaus",
+    "rarity": 5,
+    "type": "psychic",
+    "healthMod": 2,
+    "attackMod": 2,
+    "defenceMod": 3,
+    "speedMod": 4,
+    "specialMod": 5,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "142": {
+    "name": "Krump",
+    "rarity": 3,
+    "type": "earth",
+    "healthMod": 2,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 3,
+    "specialMod": 2,
+    "evolve": 25,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "143": {
+    "name": "Krunk",
+    "rarity": 5,
+    "type": "earth",
+    "healthMod": 3,
+    "attackMod": 3,
+    "defenceMod": 2,
+    "speedMod": 5,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  },
+  "144": {
+    "name": "Sluggerth",
+    "rarity": 5,
+    "type": "fighting",
+    "healthMod": 4,
+    "attackMod": 4,
+    "defenceMod": 3,
+    "speedMod": 2,
+    "specialMod": 3,
+    "evolve": 0,
+    "status": "",
+    "moveList": {
+      "2": 33,
+      "15": 34
+    }
+  }
+}

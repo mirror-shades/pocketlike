@@ -1,0 +1,221 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/game.gd" type="Script" id=1]
+[ext_resource path="res://gbsmall.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Early GameBoy.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 0, -11 )
+scale = Vector2( 0.22, 0.22 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="ParkButton" type="Button" parent="."]
+margin_left = 35.0909
+margin_top = 160.727
+margin_right = 169.091
+margin_bottom = 212.727
+
+[node name="MonCenButton" type="Button" parent="."]
+margin_left = 36.0909
+margin_top = 229.727
+margin_right = 169.091
+margin_bottom = 285.727
+text = "Monster Center"
+
+[node name="ShopButton" type="Button" parent="."]
+margin_left = 38.0909
+margin_top = 298.727
+margin_right = 169.091
+margin_bottom = 353.727
+text = "Shop"
+
+[node name="LeaderButton" type="Button" parent="."]
+margin_left = 39.0909
+margin_top = 367.727
+margin_right = 169.091
+margin_bottom = 423.727
+text = "Next Town"
+
+[node name="ExploreButton" type="Button" parent="."]
+margin_left = 40.9091
+margin_top = 509.091
+margin_right = 170.909
+margin_bottom = 565.091
+text = "Explore"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 277.818
+margin_top = 107.727
+margin_right = 641.818
+margin_bottom = 146.727
+align = 1
+
+[node name="MonBoxButton" type="Button" parent="."]
+margin_left = 271.818
+margin_top = 153.727
+margin_right = 443.818
+margin_bottom = 229.727
+text = "Monster Box"
+
+[node name="InventoryButton" type="Button" parent="."]
+margin_left = 471.818
+margin_top = 155.727
+margin_right = 643.818
+margin_bottom = 231.727
+text = "Inventory"
+
+[node name="Mon1" type="Sprite" parent="."]
+position = Vector2( 330.818, 361.545 )
+scale = Vector2( 1.25, 1.25 )
+
+[node name="Mon2" type="Sprite" parent="."]
+position = Vector2( 600.364, 361.545 )
+scale = Vector2( 1.25, 1.25 )
+
+[node name="Mon3" type="Sprite" parent="."]
+position = Vector2( 868.818, 360.545 )
+scale = Vector2( 1.25, 1.25 )
+
+[node name="MonStats1" type="Label" parent="."]
+margin_left = 352.909
+margin_top = 558.545
+margin_right = 460.909
+margin_bottom = 700.545
+rect_pivot_offset = Vector2( -78, -36 )
+custom_fonts/font = ExtResource( 2 )
+
+[node name="MonPlate1" type="Label" parent="."]
+margin_left = 205.909
+margin_top = 559.545
+margin_right = 351.909
+margin_bottom = 707.545
+rect_pivot_offset = Vector2( 69, -37 )
+custom_fonts/font = ExtResource( 2 )
+text = "Level:
+Attack:
+Defence:
+Speed:
+Special:
+xp:"
+align = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="MonPlate1"]
+margin_left = 57.7275
+margin_top = -41.3636
+margin_right = 175.728
+margin_bottom = -14.3636
+percent_visible = false
+
+[node name="Label" type="Label" parent="MonPlate1/ProgressBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+align = 1
+valign = 1
+
+[node name="MonStats3" type="Label" parent="."]
+margin_left = 889.818
+margin_top = 556.546
+margin_right = 997.818
+margin_bottom = 698.546
+rect_pivot_offset = Vector2( -78, -36 )
+custom_fonts/font = ExtResource( 2 )
+
+[node name="MonPlate3" type="Label" parent="."]
+margin_left = 742.818
+margin_top = 557.545
+margin_right = 888.818
+margin_bottom = 705.545
+rect_pivot_offset = Vector2( 69, -37 )
+custom_fonts/font = ExtResource( 2 )
+text = "Level:
+Attack:
+Defence:
+Speed:
+Special:
+xp:"
+align = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="MonPlate3"]
+margin_left = 61.7272
+margin_top = -39.3636
+margin_right = 179.728
+margin_bottom = -12.3636
+percent_visible = false
+
+[node name="Label" type="Label" parent="MonPlate3/ProgressBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+align = 1
+valign = 1
+
+[node name="MonStats2" type="Label" parent="."]
+margin_left = 619.818
+margin_top = 557.545
+margin_right = 727.818
+margin_bottom = 699.545
+rect_pivot_offset = Vector2( -78, -36 )
+custom_fonts/font = ExtResource( 2 )
+
+[node name="MonPlate2" type="Label" parent="."]
+margin_left = 472.818
+margin_top = 558.545
+margin_right = 618.818
+margin_bottom = 706.545
+rect_pivot_offset = Vector2( 69, -37 )
+custom_fonts/font = ExtResource( 2 )
+text = "Level:
+Attack:
+Defence:
+Speed:
+Special:
+xp:"
+align = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="MonPlate2"]
+margin_left = 59.0002
+margin_top = -40.3636
+margin_right = 177.0
+margin_bottom = -13.3636
+percent_visible = false
+
+[node name="Label" type="Label" parent="MonPlate2/ProgressBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+align = 1
+valign = 1
+
+[node name="MonNameType1" type="Label" parent="."]
+margin_left = 229.818
+margin_top = 465.637
+margin_right = 429.818
+margin_bottom = 485.637
+custom_fonts/font = SubResource( 1 )
+align = 1
+
+[node name="MonNameType3" type="Label" parent="."]
+margin_left = 763.728
+margin_top = 465.637
+margin_right = 970.728
+margin_bottom = 485.637
+custom_fonts/font = SubResource( 2 )
+align = 1
+
+[node name="MonNameType2" type="Label" parent="."]
+margin_left = 481.728
+margin_top = 465.637
+margin_right = 714.728
+margin_bottom = 485.637
+custom_fonts/font = SubResource( 3 )
+align = 1
