@@ -1,5 +1,29 @@
 extends Node
 
+func level1():
+	get_tree().change_scene("res://Levels/LumpySprings.tscn")
+	Utils._level = ["LumpySprings", "Town"]
+
+func level2():
+	get_tree().change_scene("res://Levels/CrumpledMountain.tscn")
+	Utils._level = ["CrumpledMountain", "Town2"]
+
+func level3():
+	get_tree().change_scene("res://Levels/LumpySprings.tscn")
+	Utils._level = ["LumpySprings", "Town3"]
+
+func level4():
+	get_tree().change_scene("res://Levels/SoggyMines.tscn")
+	Utils._level = ["SoggyMines", "Town4"]
+
+func level5():
+	get_tree().change_scene("res://Levels/NationalPark.tscn")
+	Utils._level = ["NationalPark", "Town5"]
+
+func home():
+	get_tree().change_scene("res://scenes/Game.tscn")
+
+
 var rng = RandomNumberGenerator.new()
 
 func craftParkMonster():

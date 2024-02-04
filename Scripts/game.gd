@@ -42,9 +42,21 @@ func _explore_button_pressed():
 	get_tree().change_scene("res://Levels/SceneManager.tscn")
 
 func _park_button_pressed():
-	functions.craftParkMonster();
-	#battle.initiateWildBattle();
-	get_tree().change_scene("res://scenes/Battle.tscn")
+	if (state.currentPark == "Lumpy Springs"):
+		get_tree().change_scene("res://Levels/LumpySprings.tscn")
+		Utils._level = ["LumpySprings", "Town"]
+	if (state.currentPark == "Crumpled Mountain"):
+		get_tree().change_scene("res://Levels/CrumpledMountain.tscn")
+		Utils._level = ["CrumpledMountain", "Town2"]
+	if (state.currentPark == "Shaggy Plains"):
+		get_tree().change_scene("res://Levels/LumpySprings.tscn")
+		Utils._level = ["LumpySprings", "Town3"]
+	if (state.currentPark == "Soggy Mine"):
+		get_tree().change_scene("res://Levels/SoggyMines.tscn")
+		Utils._level = ["SoggyMines", "Town4"]
+	if (state.currentPark == "National Park"):
+		get_tree().change_scene("res://Levels/NationalPark.tscn")
+		Utils._level = ["NationalPark", "Town5"]
 
 func _inventory_button_pressed():
 	get_tree().change_scene("res://scenes/Inventory.tscn")

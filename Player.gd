@@ -51,7 +51,7 @@ func _ready():
 	anim_tree.set("parameters/Turn/blend_position", input_direction)
 	
 func _go_home():
-		get_tree().change_scene("res://Levels/SceneManager.tscn")
+	get_tree().change_scene("res://scenes/Game.tscn")
 	
 func set_spawn(location: Vector2, direction: Vector2):
 		anim_tree.set("parameters/Idle/blend_position", direction)
