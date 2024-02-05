@@ -213,7 +213,7 @@ func useNet(type):
 	var res = catchEnemy(state.monsters["enemyTeam"][0], type);
 	return res
 
-func encounterMonster():
+func walkOnGrass():
 	rng.randomize()
 	var n = rng.randi_range(1, 100);
 	if (n > 90):

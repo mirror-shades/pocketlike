@@ -240,7 +240,8 @@ func _input(event):
 				_back_button_pressed()
 				emit_signal("textbox_closed")
 			elif(_landing == "Flee"):
-				get_tree().change_scene("res://scenes/Game.tscn")
+				if (state.currentTown == "Roseville"):
+					get_tree().change_scene("res://Levels/LumpySprings.tscn")
 				clearEnemies();
 				emit_signal("textbox_closed")
 			else:

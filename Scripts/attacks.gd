@@ -58,8 +58,8 @@ func checkEffectiveness(friendlyType, foeType):
 			mod = 1.5;
 		if (foeType  == "fighting" ):  
 			mod = 1.5;
-		if (foeType  == "electric" ):  
-			mod = 1.5;
+		if (foeType  == "dragon" ):  
+			mod = 0.5;
 		if (foeType  == "water" ):  
 			mod = 0.5;
 		if (foeType  == "fire" ):  
@@ -70,8 +70,8 @@ func checkEffectiveness(friendlyType, foeType):
 			mod = 1.5;
 		if (foeType  == "psychic" ):  
 			mod = 1.5;
-		if (foeType  == "dragon" ):  
-			mod = 1.5;
+		if (foeType  == "electric" ):  
+			mod = 0.5;
 		if (foeType  == "air" ):  
 			mod = 0.5;
 		if (foeType  == "water" ):  
@@ -80,10 +80,10 @@ func checkEffectiveness(friendlyType, foeType):
 	if (friendlyType  == "earth" ):  
 		if (foeType  == "air" ):  
 			mod = 1.5;
-		if (foeType  == "psychic" ):  
-			mod = 1.5;
 		if (foeType  == "electric" ):  
 			mod = 1.5;
+		if (foeType  == "fighting" ):  
+			mod = 0.5;
 		if (foeType  == "fire" ):  
 			mod = 0.5;
 		if (foeType  == "earth" ):  
@@ -92,10 +92,10 @@ func checkEffectiveness(friendlyType, foeType):
 	if (friendlyType  == "air" ):  
 		if (foeType  == "water" ):  
 			mod = 1.5;
-		if (foeType  == "fighting" ):  
-			mod = 1.5;
 		if (foeType  == "dragon" ):  
 			mod = 1.5;
+		if (foeType  == "psychic" ):  
+			mod = 0.5;
 		if (foeType  == "earth" ):  
 			mod = 0.5;
 		if (foeType  == "air" ):  
@@ -156,7 +156,9 @@ func checkEffectiveness(friendlyType, foeType):
 			mod = 1.5;
 		if (foeType  == "fighting" ):  
 			mod = 1.5;
-		if (foeType  == "air" ):  
+		if (foeType  == "electric" ):  
+			mod = 1.5;
+		if (foeType  == "psychic" ):  
 			mod = 0.5;
 		if (foeType  == "fire" ):  
 			mod = 0.5;
@@ -168,9 +170,11 @@ func checkEffectiveness(friendlyType, foeType):
 			mod = 1.5;
 		if (foeType  == "psychic" ):  
 			mod = 1.5;
-		if (foeType  == "water" ):  
+		if (foeType  == "dragon" ):  
+			mod = 1.5;
+		if (foeType  == "air" ):  
 			mod = 0.5;
-		if (foeType  == "earth" ):  
+		if (foeType  == "fighting" ):  
 			mod = 0.5;
 
 	if (friendlyType  == "dragon" ):  
@@ -180,9 +184,11 @@ func checkEffectiveness(friendlyType, foeType):
 			mod = 1.5;
 		if (foeType  == "dragon" ):  
 			mod = 1.5;
+		if (foeType  == "psychic" ):  
+			mod = 1.5;
 		if (foeType  == "air" ):  
 			mod = 0.5;
-		if (foeType  == "water" ):  
+		if (foeType  == "electric" ):  
 			mod = 0.5;
 	
 	if (friendlyType  == "electric" ):  
@@ -190,11 +196,13 @@ func checkEffectiveness(friendlyType, foeType):
 			mod = 1.5;
 		if (foeType  == "cybernetic" ):  
 			mod = 1.5;
+		if (foeType  == "fighting" ):  
+			mod = 1.5;
 		if (foeType  == "electric" ):  
 			mod = 1.5;
-		if (foeType  == "fire" ):  
+		if (foeType  == "water" ):  
 			mod = 0.5;
-		if (foeType  == "earth" ):  
+		if (foeType  == "dragon" ):  
 			mod = 0.5;
 	return mod;
 
@@ -209,17 +217,14 @@ func checkCrit(firstSpeed, secondSpeed):
 
 func moveEffect(effectId, damage, hp1, hp2):
 	var randNum =  rng.randi_range(1, 12);
-	if (effectId == "1"):
-		if (randNum > 6):
+	if (randNum > 6):
+		if (effectId == "1"):
 			state.monsters["enemyTeam"][0].status = "paralyzed"; 
-	if (effectId == "2"):
-		if (randNum > 6):
+		if (effectId == "2"):
 			state.monsters["enemyTeam"][0].status = "burn"; 
-	if (effectId == "3"):
-		if (randNum > 6):
+		if (effectId == "3"):
 			state.monsters["enemyTeam"][0].status = "sleep"; 
-	if (effectId == "4"):
-		if (randNum > 6):
+		if (effectId == "4"):
 			state.monsters["enemyTeam"][0].status = "poison"; 
 	if (effectId == "5"):
 		pass #recoil 

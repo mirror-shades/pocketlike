@@ -28,7 +28,7 @@ func player_in_grass():
 		grass_overlay.texture = grass_overlay_texture
 		grass_overlay.rect_position = position
 		get_tree().current_scene.add_child(grass_overlay)
-		functions.encounterMonster()
+		functions.walkOnGrass()
 
 
 func _on_Area2D_body_entered(body):
