@@ -70,7 +70,14 @@ func update_animation_direction():
 		anim_tree.set("parameters/Walk/blend_position", Vector2(1, 0))
 		anim_tree.set("parameters/Turn/blend_position", Vector2(1, 0))
 
+func resetLevelData():
+	state.direction = 3
+	state.position = Vector2()
+	position = Vector2()
+	facing_direction = 3
+
 func _go_home():
+	resetLevelData()
 	get_tree().change_scene("res://scenes/Game.tscn")
 
 func set_spawn():
@@ -119,9 +126,6 @@ func need_to_turn():
 		new_facing_direction = FacingDirection.UP
 	elif input_direction.y > 0:
 		new_facing_direction = FacingDirection.DOWN
-	print("state ",state.direction)
-	print("current ",new_facing_direction)
-	print(" ")
 	
 	if state.direction != new_facing_direction:
 		facing_direction = new_facing_direction
