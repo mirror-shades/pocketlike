@@ -25,7 +25,7 @@ enum PlayerState { IDLE, TURNING, WALKING }
 enum FacingDirection { LEFT, RIGHT, UP, DOWN }
 
 var player_state = PlayerState.IDLE
-var facing_direction = FacingDirection.DOWN
+var facing_direction = state.position
 
 var initial_position = Vector2(0, 0)
 var input_direction = Vector2(0, 1)
@@ -37,9 +37,7 @@ var percent_moved_to_next_tile = 0.0
 func _ready():
 	if state.position != Vector2():
 		position = state.position
-	if state.direction != null:
 		facing_direction = state.direction
-		update_animation_direction(facing_direction)
 
 	var camera2d = Camera2D.new()
 	camera2d.current = true
@@ -52,37 +50,32 @@ func _ready():
 	anim_tree.active = true
 	initial_position = position
 	shadow.visible = false
-	anim_tree.set("parameters/Idle/blend_position", input_direction)
-	anim_tree.set("parameters/Walk/blend_position", input_direction)
-	anim_tree.set("parameters/Turn/blend_position", input_direction)
+	update_animation_direction()
 
-func update_animation_direction(direction):
-	match direction:
-		FacingDirection.DOWN:
-			anim_tree.set("parameters/Idle/blend_position", Vector2(0, 1))
-			anim_tree.set("parameters/Walk/blend_position", Vector2(0, 1))
-			anim_tree.set("parameters/Turn/blend_position", Vector2(0, 1))
-		FacingDirection.UP:
-			anim_tree.set("parameters/Idle/blend_position", Vector2(0, -1))
-			anim_tree.set("parameters/Walk/blend_position", Vector2(0, -1))
-			anim_tree.set("parameters/Turn/blend_position", Vector2(0, -1))
-		FacingDirection.LEFT:
-			anim_tree.set("parameters/Idle/blend_position", Vector2(-1, 0))
-			anim_tree.set("parameters/Walk/blend_position", Vector2(-1, 0))
-			anim_tree.set("parameters/Turn/blend_position", Vector2(-1, 0))
-		FacingDirection.RIGHT:
-			anim_tree.set("parameters/Idle/blend_position", Vector2(1, 0))
-			anim_tree.set("parameters/Walk/blend_position", Vector2(1, 0))
-			anim_tree.set("parameters/Turn/blend_position", Vector2(1, 0))
+func update_animation_direction():
+	if (state.direction==3):
+		anim_tree.set("parameters/Idle/blend_position", Vector2(0, 1))
+		anim_tree.set("parameters/Walk/blend_position", Vector2(0, 1))
+		anim_tree.set("parameters/Turn/blend_position", Vector2(0, 1))
+	if (state.direction==2):
+		anim_tree.set("parameters/Idle/blend_position", Vector2(0, -1))
+		anim_tree.set("parameters/Walk/blend_position", Vector2(0, -1))
+		anim_tree.set("parameters/Turn/blend_position", Vector2(0, -1))
+	if (state.direction==0):
+		anim_tree.set("parameters/Idle/blend_position", Vector2(-1, 0))
+		anim_tree.set("parameters/Walk/blend_position", Vector2(-1, 0))
+		anim_tree.set("parameters/Turn/blend_position", Vector2(-1, 0))
+	if (state.direction==1):
+		anim_tree.set("parameters/Idle/blend_position", Vector2(1, 0))
+		anim_tree.set("parameters/Walk/blend_position", Vector2(1, 0))
+		anim_tree.set("parameters/Turn/blend_position", Vector2(1, 0))
 
 func _go_home():
 	get_tree().change_scene("res://scenes/Game.tscn")
 
-func set_spawn(location: Vector2, direction: Vector2):
-	anim_tree.set("parameters/Idle/blend_position", direction)
-	anim_tree.set("parameters/Walk/blend_position", direction)
-	anim_tree.set("parameters/Turn/blend_position", direction)
-	position = location
+func set_spawn():
+	update_animation_direction()
+	position = state.location
 
 func _physics_process(delta):
 	if player_state == PlayerState.TURNING or stop_input:
@@ -126,10 +119,13 @@ func need_to_turn():
 		new_facing_direction = FacingDirection.UP
 	elif input_direction.y > 0:
 		new_facing_direction = FacingDirection.DOWN
-	state.direction = new_facing_direction
+	print("state ",state.direction)
+	print("current ",new_facing_direction)
+	print(" ")
 	
-	if facing_direction != new_facing_direction:
+	if state.direction != new_facing_direction:
 		facing_direction = new_facing_direction
+		state.direction = new_facing_direction
 		return true
 	facing_direction = new_facing_direction
 	return false
@@ -197,7 +193,6 @@ func move(delta):
 			position = initial_position + (input_direction * TILE_SIZE * percent_moved_to_next_tile)
 	else:
 		is_moving = false
-	print(state.direction)
 
 # Called when the node is about to leave the scene tree
 func _exit_tree():
