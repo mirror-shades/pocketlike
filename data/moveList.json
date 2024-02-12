@@ -547,8 +547,8 @@
     "name": "Hot Kick",
     "type": "fire",
     "special": false,
-    "power": "",
-    "effect": "70",
+    "power": "70",
+    "effect": "",
     "discription": ""
   },
   "70": {

@@ -30,24 +30,24 @@ func _ready():
 
 
 func _fire_button_pressed():
-	functions.craftMonster("playerTeam", 1, 5)
-	functions.craftMonster("playerTeam", 4, 5)
-	functions.craftMonster("playerTeam", 7, 5)
+	functions.craftStarterMonster("playerTeam", 1, 5)
+	functions.craftStarterMonster("playerTeam", 4, 5)
+	functions.craftStarterMonster("playerTeam", 7, 5)
 	$ChooseMon.hide()
 	$ChooseBuff.show()
 
 func _earth_button_pressed():
-	functions.craftMonster("playerTeam", 4, 5)	
+	functions.craftStarterMonster("playerTeam", 4, 5)	
 	$ChooseMon.hide()
 	$ChooseBuff.show()
 
 func _water_button_pressed():
-	functions.craftMonster("playerTeam", 7, 5)	
+	functions.craftStarterMonster("playerTeam", 7, 10)	
 	$ChooseMon.hide()
 	$ChooseBuff.show()
 
 func _air_button_pressed():
-	functions.craftMonster("playerTeam", 10, 5)	
+	functions.craftStarterMonster("playerTeam", 10, 5)	
 	$ChooseMon.hide()
 	$ChooseBuff.show()
 

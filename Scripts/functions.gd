@@ -78,6 +78,23 @@ func craftMonster(location, id, level):
 	if(state.activeTeam.size() < 3):
 		state.activeTeam.append(index)
 
+func craftStarterMonster(location, id, level):
+	rng.randomize()
+	var baseMon = data.monList.result[str(id)];
+	var index = state.monsters[location].size();
+	var _maxHealth = 10 + baseMon.healthMod + rng.randi_range(1, baseMon.healthMod + 3);
+	var _currentHealth = _maxHealth;
+	var _attack = 5 + baseMon.attackMod + rng.randi_range(1, baseMon.attackMod + 1);
+	var _defence = 5 + baseMon.defenceMod + rng.randi_range(1, baseMon.defenceMod + 1);
+	var _speed = 5 + baseMon.speedMod + rng.randi_range(1, baseMon.speedMod + 1);
+	var _special = 5 + baseMon.specialMod + rng.randi_range(1, baseMon.specialMod + 1);
+	var _nextLevel = 5 + baseMon.rarity;
+	state.monsters[location][index] = {"name": baseMon.name,"id": id, "type": baseMon.type, "monsterNumber": index, "level": 1, "maxHealth": baseMon.healthMod, "currentHealth": baseMon.healthMod, "attack": baseMon.attackMod, "defence": baseMon.defenceMod, "speed": baseMon.speedMod, "special": baseMon.specialMod, "currentXp": 0, "nextLevel": baseMon.rarity, "evolve": baseMon.evolve, "moveList": {},}
+	while (state.monsters[location][index].level < level):
+		state.monsters[location][index] = levelUp(state.monsters[location][index])
+	if(state.activeTeam.size() < 3):
+		state.activeTeam.append(index)
+
 func levelUp(monster):
 	rng.randomize()	
 	var mon = monster
