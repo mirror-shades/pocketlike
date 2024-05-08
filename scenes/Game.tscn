@@ -34,6 +34,13 @@ margin_right = 169.091
 margin_bottom = 285.727
 text = "Monster Center"
 
+[node name="SpireButton" type="Button" parent="."]
+margin_left = 850.0
+margin_top = 168.182
+margin_right = 981.0
+margin_bottom = 223.182
+text = "Spire Mode"
+
 [node name="ShopButton" type="Button" parent="."]
 margin_left = 38.0909
 margin_top = 298.727

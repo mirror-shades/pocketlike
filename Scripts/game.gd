@@ -18,6 +18,9 @@ func _ready():
 
 	var shopButton = $ShopButton
 	shopButton.connect("pressed", self, "_shop_button_pressed")
+	
+	var spireButton = $SpireButton
+	spireButton.connect("pressed", self, "_spire_button_pressed")
 
 	var exploreButton = $ExploreButton
 	exploreButton.connect("pressed", self, "_explore_button_pressed")
@@ -63,6 +66,9 @@ func _inventory_button_pressed():
 	
 func _shop_button_pressed():
 	get_tree().change_scene("res://scenes/Shop.tscn")
+	
+func _spire_button_pressed():
+	get_tree().change_scene("res://scenes/Spire.tscn")
 	
 func _leader_button_pressed():
 	functions.advanceStage()
